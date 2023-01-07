@@ -3,7 +3,6 @@ import screen_brightness_control as sbc
   
 root = Tk()  
 root.title('Brightness Control')
-
 monitors = sbc.list_monitors()
 
 def create_slider(v, monitor):
